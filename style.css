@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #f8f5f0;
+    font-family: Arial;
+    color: #292521;
+
+}
+header{
+    background-color: #f8f5f0;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8B6f55;
+}
+header h1{
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(21, 16, 11);
+    text-align: left;
+}
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+color: #292521;
+font-size: 16px;
+font-weight: bold;
+
+
+}
+nav ul li{
+    color: #292521;
+    font-size: 16px;
+    
+}
+nav a{
+      text-decoration: none;
+
+}
+#home h1{
+    font-size: 36px;
+    color: #8B6f55;
+    text-align: center;
+}
+#home p{
+    text-align: center;
+    font-size: 18px;
+    color: #292521;
+}
+
+#home img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+   justify-content:center;
+   display: block;
+   margin: 0 auto;
+   margin-top: 30px;
+}
+#About{
+    padding: 60px;
+}
+#About h1{
+    text-align: center;
+    color: #8B6f55;
+}
+#About p{
+    font-size: 16px;
+    color: #262521;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#skills-container{
+    display: flex;
+    justify-content: center;
+    padding: 2opx;
+    align-items: center;
+    gap: 20px;
+}
+#h1{
+    text-align: center;
+        color: #8B6f55;
+        font-size: 28px;
+        margin-bottom: 30px;
+}
+.skill-card{
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 200px;
+    height: 120px;  
+}
+.skill-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #8b6f55;
+}
+.skill-card p{
+    font-size: 14px;
+    color: #292521;
+}
+#contact{
+    text-align: center;
+    padding: 60px;
+
+}
+#contact h1{
+    text-align: center;
+    margin-top: -30px;
+    color:#8B6f55 ;
+    margin-bottom: 20px;
+}
+#contact p a{
+    color: #8B6f55;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+#contact a{
+    
+    font-size: 16px;
+    text-decoration: none;
+}
+#contact p{
+    margin-top: 15px;
+    
+}
+footer{
+    background-color: #8B6f55;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
